@@ -14,9 +14,9 @@ def checkUnique(caption):
 
 	if uniqueCat or unique:
 		if uniqueCat:
-			print(caption + ' cat" already exists!')
+			print("\"" + caption + ' cat" already exists!')
 		else:
-			print(caption + '" already exists!')
+			print("\"" + caption + '" already exists!')
 	else:
 		if caption.endswith(' cat'):
 			print('u haven\'t used "' + caption + '" yet!')
