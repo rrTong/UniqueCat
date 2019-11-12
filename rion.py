@@ -42,5 +42,17 @@ def checkUnique(caption):
 	print('\n\n\n\n\n\n')
 
 if __name__ == "__main__":
+	if len(sys.argv) == 1:
+		print('\n\n\n\n\n\n')
+		print('\n ( type in a caption! ) ')	
+		print('''
+           v
+
+       |\-----/|
+       | ᵘ ω ° |
+        \_____/
+              ''')
+		print('\n\n\n\n\n\n')
+
 	caption = str(sys.argv[1])
 	checkUnique(caption)
