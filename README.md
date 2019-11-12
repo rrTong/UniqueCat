@@ -1,7 +1,7 @@
 # UniqueCat
 **What's the point?**
 
-To check uniqueness of a new royalrion instagram caption
+To check uniqueness of a new [royalrion](https://www.instagram.com/royalrion/) instagram caption
 
 ## How to use
 Check if royalrion has used cat caption
