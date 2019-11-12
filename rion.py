@@ -4,6 +4,8 @@ def checkUnique(caption):
 	unique = False
 	uniqueCat = False
 
+	print('\n\n\n\n\n\n')
+
 	with open('captions.txt') as f:
 		if caption + " cat" in f.read():
 			uniqueCat = True
@@ -14,14 +16,24 @@ def checkUnique(caption):
 
 	if uniqueCat or unique:
 		if uniqueCat:
-			print("\"" + caption + ' cat" already exists!')
+			print('\n ( \"' + caption + ' cat" already exists! ) ')
 		else:
-			print("\"" + caption + '" already exists!')
+			print('\n ( \"' + caption + '" already exists! ) ')
 	else:
 		if caption.endswith(' cat'):
-			print('u haven\'t used "' + caption + '" yet!')
+			print('\n ( u haven\'t used "' + caption + '" yet! ) ')
 		else:
-			print('u haven\'t used "' + caption + ' cat" yet!')
+			print('\n ( u haven\'t used "' + caption + ' cat" yet! ) ')
+
+	print('''
+                  v
+
+              |\-----/|
+              | ᵘ ω ᵘ |
+               \_____/
+              ''')
+
+	print('\n\n\n\n\n\n')
 
 if __name__ == "__main__":
 	caption = str(sys.argv[1])
