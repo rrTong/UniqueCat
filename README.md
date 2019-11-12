@@ -13,7 +13,7 @@ Or just check caption without "cat"!
 rion.py "test"
 ```
 ---
-UniqueCat will tell you if either
+UniqueCat will tell you either
 ```
 "test cat" already exists!
 ```
