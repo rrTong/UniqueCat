@@ -19,13 +19,19 @@ def checkUnique(caption):
 			print('\n ( \"' + caption + ' cat" already exists! ) ')
 		else:
 			print('\n ( \"' + caption + '" already exists! ) ')
+		print('''
+                  v
+
+              |\-----/|
+              | ° ω ° |
+               \_____/
+              ''')
 	else:
 		if caption.endswith(' cat'):
 			print('\n ( u haven\'t used "' + caption + '" yet! ) ')
 		else:
 			print('\n ( u haven\'t used "' + caption + ' cat" yet! ) ')
-
-	print('''
+		print('''
                   v
 
               |\-----/|
