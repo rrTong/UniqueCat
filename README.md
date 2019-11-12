@@ -1,5 +1,6 @@
 # UniqueCat
 **What's the point?**
+
 To check uniqueness of a new royalrion instagram caption
 
 ## How to use
