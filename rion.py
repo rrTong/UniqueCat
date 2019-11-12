@@ -14,13 +14,15 @@ def checkUnique(caption):
 
 	if uniqueCat or unique:
 		if uniqueCat:
-			print('hou bag! "' + caption + ' cat" already exists!')
+			print(caption + ' cat" already exists!')
 		else:
-			print('hou no.. "' + caption + '" already exists!')
+			print(caption + '" already exists!')
 	else:
-		print('u haven\'t used "' + caption + '" yet!')
+		if caption.endswith(' cat'):
+			print('u haven\'t used "' + caption + '" yet!')
+		else:
+			print('u haven\'t used "' + caption + ' cat" yet!')
 
 if __name__ == "__main__":
 	caption = str(sys.argv[1])
 	checkUnique(caption)
-
